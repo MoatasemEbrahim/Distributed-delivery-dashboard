@@ -1,10 +1,6 @@
+import {FC} from 'react'
+import RouterHandler from './routes/Router';
 
-function App() {
-  return (
-    <div>
-      <p>distributed-delivery-dashboard</p>
-    </div>
-  );
-}
+const App:FC = ()=> <RouterHandler />;
 
 export default App;
